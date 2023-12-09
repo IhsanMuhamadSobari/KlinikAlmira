@@ -382,8 +382,8 @@ WHERE `order`.`c_id`=customer.c_id AND `order`.`p_id`=pharmacy.p_id AND `order`.
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">info@healthycare.com</a>
-        <i class="bi bi-phone"></i> +94 77 764 789
+        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">klinikrbamira@ymail.com</a>
+        <i class="bi bi-phone"></i> +62 831 4077 1221
       </div>
     </div>
   </div>
@@ -391,7 +391,7 @@ WHERE `order`.`c_id`=customer.c_id AND `order`.`p_id`=pharmacy.p_id AND `order`.
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/Healthy%20Care-logos_black.png"></a></h1>
+      <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/Logo Klinik.png"></a></h1>
 
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -529,13 +529,13 @@ WHERE `order`.`c_id`=customer.c_id AND `order`.`p_id`=pharmacy.p_id AND `order`.
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Healthy Care</h3>
+            <h3>Klinik Almira</h3>
             <p>
-              Main Street <br>
-              Kurunegala, 60000<br>
-              Sri Lanka <br><br>
-              <strong>Phone:</strong> +94 77 764 789<br>
-              <strong>Email:</strong> info@healthycare.com<br>
+            Jl. Jend. Urip Sumoharjo No.78,  <br>
+            Karangsari, Kec. Cikarang Tim.,<br>
+            Kabupaten Bekasi, Jawa Barat<br><br>
+              <strong>Phone:</strong> +62 831-4077-1221<br>
+              <strong>Email:</strong> klinikrbamira@ymail.com<br>
             </p>
               
           </div>
@@ -566,11 +566,11 @@ WHERE `order`.`c_id`=customer.c_id AND `order`.`p_id`=pharmacy.p_id AND `order`.
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; Copyright <strong><span>Healthy Care</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span> Klinik Almira</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
          
-          Designed by <a href="index.html">Team Alpha</a>
+          Designed by <a href="index.html">FrioTrio</a>
         </div>
       </div>
     </div>
