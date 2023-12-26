@@ -143,7 +143,52 @@ if(isset($_POST["btnupload"])){
 
     <link href="assets/css/style.css" rel="stylesheet">
     <style>
-   
+   .schedule {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #BB9CC0;
+}
+
+tr:hover {
+  background-color: #BB9CC0;
+}
+.daftar-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.daftar-button:hover {
+    background-color: #45a049;
+}
     </style>
 </head>
 
@@ -173,7 +218,7 @@ if(isset($_POST["btnupload"])){
           <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="ordermedicine.php">Order Medicine</a></li>
-              <li><a href="channeldoctor.php">Doctor Appointment</a></li>
+              <li><a href="channeldoctor.php">Jadwal Dokter</a></li>
               <li><a href="emergencyservice.php">Emergency Service</a></li>
             </ul>
           </li>
@@ -205,6 +250,143 @@ if(isset($_POST["btnupload"])){
           <h2>Make An Appointment</h2>
           <p>Fill The Form To Make An Appointment</p>
         </div>
+
+  <div class="schedule">
+    <h2>Jadwal Dokter Umum</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Hari</th>
+          <th>Kode</th>
+          <th>Nama Dokter</th>
+          <th>Jam Praktik</th>
+          <th>Keterangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="">Senin</td>
+          <td>AB01</td>
+          <td>Dr. Nanda P Sihombing</td>
+          <td>08:00 - 20:00</td>
+          <td>Poli Umum</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="">Selasa</td>
+          <td>AB02</td>
+          <td>Dr. Ramdhan Tri C</td>
+          <td>08:00 - oo:00</td>
+          <td>Poli Umum</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="2">rabu</td>
+          <td>AB03</td>
+          <td>Dr. Disky Fahroza Fonna</td>
+          <td>08:00 - 20:00</td>
+          <td>Poli Umum</td>
+        </tr>
+        <tr>
+          <td>AB04</td>
+          <td>Dr. Nina Merry C</td>
+          <td>08:00 - 00:00</td>
+          <td>Poli Umum</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="2">Kamis</td>
+          <td>AB05</td>
+          <td>Dr. Putri Ufairah</td>
+          <td>08:00 - 20:00</td>
+          <td>Poli Umum</td>
+        </tr>
+        <tr>
+          <td>AB06</td>
+          <td>Dr. Roro Maya</td>
+          <td>08:00 - 00:00</td>
+          <td>Poli Umum</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="2">Jumat</td>
+          <td>AB07</td>
+          <td>Dr. Alfadil Santowijaya</td>
+          <td>08:00 - 20:00</td>
+          <td>Poli Umum</td>
+        </tr>
+        <tr>
+          <td>AB08</td>
+          <td>Dr. Tenri Risna Abdi</td>
+          <td>08:00 - 00:00</td>
+          <td>Poli Umum</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="">Sabtu</td>
+          <td>AB09</td>
+          <td>Dr. Aswaldo Lolo S</td>
+          <td>08:00 - 20:00</td>
+          <td>Poli Umum</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="2">Minggu</td>
+          <td>AB10</td>
+          <td>Dr. Desy Indah P</td>
+          <td>08:00 - 00:00</td>
+          <td>poli Umum</td>
+        </tr>
+        <tr>
+          <td>Ab11</td>
+          <td>Dr. Risky Sesa Rini</td>
+          <td>08:00 - 00:00</td>
+          <td>Poli Umum</td>
+        </tr>
+      </tbody>
+    </table><br>
+    <button type="submit" class="daftar-button">Daftar Pasien</button>
+  </div>
+
+  <div class="schedule">
+    <h2>Jadwal Dokter Umum</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Hari</th>
+          <th>Kode</th>
+          <th>Nama Dokter</th>
+          <th>Jam Praktik</th>
+          <th>Keterangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="">Senin</td>
+          <td>AD01</td>
+          <td>Dr. Ivan Noor Rinaldy</td>
+          <td>10:00 - 15:00</td>
+          <td>Poli Gigi</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td rowspan="">Selasa</td>
+          <td>AD02</td>
+          <td>Dr. Ella Hayati</td>
+          <td>10:00 - 15:00</td>
+          <td>Poli Gigi</td>
+        </tr>
+      </tbody>
+    </table><br>
+    <button type="submit" class="daftar-button">Daftar Pasien</button>
+  </div>
 
         <form action="channeldoctor.php" method="post" role="form">
         

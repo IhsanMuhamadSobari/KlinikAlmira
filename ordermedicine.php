@@ -96,6 +96,7 @@ if(!isset($_SESSION["c_id"]))
           <h2>Order Medicine</h2>
           <p>Fill The Form To Order Medicine</p>
         </div>
+        
 
         <form action="upload.php" method="post" enctype="multipart/form-data">
         
